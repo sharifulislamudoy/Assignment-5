@@ -21,6 +21,16 @@ body{
     color: white;
 }
 
+.btnClr{
+    padding: 0.5em 1em;
+    background-color: rgb(55, 82, 253);
+    border-radius: 0.5em;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 1em;
+}
+
 .btn:hover{
     background-color: blue;
 }
@@ -74,6 +84,11 @@ body{
 .theme-btn > img {
     width: 60%;
     height: auto;
+    cursor: pointer;
+}
+
+.task{
+    font-size: small;
 }
 
 .main-container{
@@ -120,6 +135,9 @@ body{
     height: auto;
 }
 
+.pcard-child > a{
+    text-decoration: none;
+}
 .discover{
     color: white;
 }
@@ -172,12 +190,13 @@ body{
     margin: 0 1em;
 }
 .secondary-card{
-    padding: 1em 4em;
+    padding: 1em;
     background-color: white;
     border-radius: 0.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 25%;
 }
 
 .Schild-1{
@@ -196,4 +215,10 @@ body{
 
 .dcounter{
     font-weight: 600;
+}
+
+.activitylog{
+    background-color: rgb(244, 247, 255);
+    padding: 1em;
+    margin-bottom: 1em;
 }
